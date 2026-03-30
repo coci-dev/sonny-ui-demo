@@ -1,0 +1,68 @@
+import { ActivityEvent } from '../models/activity';
+
+export const MOCK_ACTIVITY: ActivityEvent[] = [
+  {
+    id: 'a1',
+    type: 'task_completed',
+    description: 'completó "Implementar WebSocket — an offer he can\'t refuse"',
+    userId: 'u3',
+    projectId: 'p4',
+    timestamp: '2026-03-29T14:30:00Z',
+  },
+  {
+    id: 'a2',
+    type: 'status_changed',
+    description: 'cambió "Los Pollos Hermanos API" a En Progreso. I am the one who deploys.',
+    userId: 'u1',
+    projectId: 'p2',
+    timestamp: '2026-03-29T11:15:00Z',
+  },
+  {
+    id: 'a3',
+    type: 'member_added',
+    description: 'añadió a Dwight Schrute al proyecto. Assistant to the Regional Developer.',
+    userId: 'u4',
+    projectId: 'p2',
+    timestamp: '2026-03-28T16:45:00Z',
+  },
+  {
+    id: 'a4',
+    type: 'comment_added',
+    description: 'comentó: "Yeah Mr. White! Yeah science!" en los prototipos',
+    userId: 'u2',
+    projectId: 'p3',
+    timestamp: '2026-03-28T10:20:00Z',
+  },
+  {
+    id: 'a5',
+    type: 'project_created',
+    description: 'creó "Dunder Mifflin Mobile" — that\'s what she said',
+    userId: 'u4',
+    projectId: 'p3',
+    timestamp: '2026-03-15T09:00:00Z',
+  },
+  {
+    id: 'a6',
+    type: 'task_completed',
+    description: 'completó "Cocinar wireframes con 99% de pureza"',
+    userId: 'u6',
+    projectId: 'p1',
+    timestamp: '2026-03-14T17:00:00Z',
+  },
+  {
+    id: 'a7',
+    type: 'status_changed',
+    description: 'pausó "Migración a la Nube". A guy opens his door and gets shot, you think that of me? No. I am the one who pauses.',
+    userId: 'u1',
+    projectId: 'p5',
+    timestamp: '2026-03-12T13:30:00Z',
+  },
+  {
+    id: 'a8',
+    type: 'task_completed',
+    description: 'completó la Wiki. False. Bears eat beets. Bears. Beets. Documentation.',
+    userId: 'u5',
+    projectId: 'p6',
+    timestamp: '2026-03-10T15:45:00Z',
+  },
+];

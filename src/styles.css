@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+@import '@sonny-ui/core/styles/sonny-theme.css';
+@source "../node_modules/@sonny-ui/core";
+
+/* shadcn/ui aesthetic — Geist, Zinc neutrals, clean borders */
+
+body {
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --sny-background: #ffffff;
+  --sny-foreground: #09090b;
+  --sny-primary: #18181b;
+  --sny-primary-foreground: #fafafa;
+  --sny-secondary: #f4f4f5;
+  --sny-secondary-foreground: #18181b;
+  --sny-muted: #f4f4f5;
+  --sny-muted-foreground: #71717a;
+  --sny-accent: #f4f4f5;
+  --sny-accent-foreground: #18181b;
+  --sny-destructive: #ef4444;
+  --sny-destructive-foreground: #fafafa;
+  --sny-card: #ffffff;
+  --sny-card-foreground: #09090b;
+  --sny-popover: #ffffff;
+  --sny-popover-foreground: #09090b;
+  --sny-border: #e4e4e7;
+  --sny-input: #e4e4e7;
+  --sny-ring: #18181b;
+  --sny-radius: 0.5rem;
+}
+
+.dark,
+[data-theme="dark"] {
+  --sny-background: #09090b;
+  --sny-foreground: #fafafa;
+  --sny-primary: #fafafa;
+  --sny-primary-foreground: #18181b;
+  --sny-secondary: #27272a;
+  --sny-secondary-foreground: #fafafa;
+  --sny-muted: #27272a;
+  --sny-muted-foreground: #a1a1aa;
+  --sny-accent: #27272a;
+  --sny-accent-foreground: #fafafa;
+  --sny-destructive: #dc2626;
+  --sny-destructive-foreground: #fafafa;
+  --sny-card: #09090b;
+  --sny-card-foreground: #fafafa;
+  --sny-popover: #09090b;
+  --sny-popover-foreground: #fafafa;
+  --sny-border: #27272a;
+  --sny-input: #27272a;
+  --sny-ring: #d4d4d8;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.025em;
+}
